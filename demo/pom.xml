@@ -35,6 +35,19 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+		<dependency>
+	        <groupId>org.apache.tomcat.embed</groupId>
+        	<artifactId>tomcat-embed-jasper</artifactId>
+    	</dependency>
+		<dependency>
+        	<groupId>jstl</groupId>
+        	<artifactId>jstl</artifactId>
+        	<version>1.2</version>
+    	</dependency>
 	</dependencies>
 
 	<build>
